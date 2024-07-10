@@ -34,10 +34,15 @@ body {
 :root{
     --dark-color: #0D1321;
     --black-color: #000;
+    --brand-color: #fa7900;
 }
 html {
     scroll-behavior: smooth;
   }
+
+.brand-color{
+    color: var(--brand-color);
+}
 
 p{
     font-size: 16px;
@@ -86,6 +91,8 @@ nav{
     line-height: 33px;
     letter-spacing: 0%;
 }
+
+
 .btn{
     color: rgb(13, 19, 33);
     font-size: 20px;
@@ -159,6 +166,7 @@ nav{
 .web-heading-text{
     background-color: #fdf4f4;
     padding: 20px 0;
+    padding-bottom: 50px;
 }
 .web-title{
     color: var(--black-color);
@@ -199,6 +207,7 @@ nav{
     line-height: 36px;
     letter-spacing: 0%;
     text-align: left;
+    color: var(--brand-color);
 }
 .web-items .description{
     margin: 10px 0;
@@ -253,9 +262,8 @@ nav{
 }
 
 .current-cart-items{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
     gap: 25px;
 }
 
@@ -375,7 +383,6 @@ footer{
     padding: 20px 0;
 }
 .footer-title{
-    color: var(--black-color);
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
@@ -395,5 +402,5 @@ footer ul li a{
     transition: 0.3s ease-in;
 }
 footer ul li a:hover{
-    color: #000;
+    color: var(--brand-color);
 }
