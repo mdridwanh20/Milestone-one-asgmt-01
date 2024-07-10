@@ -66,6 +66,10 @@ table {
     text-align: center;
 }
 
+
+
+
+
 /* header nav section style css here */
 
 header{
@@ -106,6 +110,10 @@ nav{
     cursor: pointer;
     text-transform: capitalize;
 }
+
+
+
+
 
 /* header banner section style css */
 .banner-section{
@@ -185,6 +193,9 @@ nav{
     padding-bottom:  20px;
 }
 
+
+
+
 /* web items */
 .web-items{
     background-color: #f7f7f7;
@@ -239,6 +250,10 @@ nav{
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
+
+
+
+
 
 /* current section style css here */
 #current-section{
@@ -295,6 +310,10 @@ nav{
     border: none;
     padding: 0;
 }
+
+
+
+
 
 
 /* support section style css here */
@@ -369,6 +388,12 @@ input:focus{
 ::placeholder{
     text-align: left !important;
 }
+
+
+
+
+
+
 
 /* footer section style css here */
 footer{
