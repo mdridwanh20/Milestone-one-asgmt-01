@@ -273,3 +273,79 @@ nav{
     border: none;
     padding: 0;
 }
+
+
+/* support section style css here */
+#support-section{
+    padding: 50px 0;
+}
+.support-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000079;
+    background-blend-mode: overlay;
+}
+.support-title{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#support-section .description{
+    color: #c7c5c5;
+    margin: 20px 0;
+    text-align: center;
+}
+#support-section .btn{
+    color: #fff;
+}
+.support-cnt .btn{
+    padding: 14px 40px;
+    background-color: #fff;
+    border: none;
+    color: #000 !important;
+    font-weight: medium;
+    transition: 0.3s ease-in;
+}
+.support-cnt .btn:hover{
+    border: 1px solid #fff;
+    color: #ffffff !important;
+    background-color: transparent;
+}
+
+
+
+form{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+form input{
+    border: 1px solid;
+    font-size: 15px;
+    width: 600px;
+}
+form input[type="text"]{
+    padding: 16px ;
+    background-color: #fdfdfb;
+}
+input:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+::placeholder{
+    text-align: left !important;
+}
